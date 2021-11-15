@@ -356,5 +356,157 @@ def pcorr(itripl, t, p, dl, dv, epseqn):
   '''
   pass
 
-def tcorr():
+def tcorr(itripl, t, p, dl, dv, epseqn):
+  '''
+  Computes Tsaturation(P) (t) and liquid and vapor densities (dl & dv)
+  from refinement of an initial approaximation (TsHGK(p)) in accord
+  with Gl = Gv
+
+    Parameters:
+
+    Returns:
+      t (float) ~ maybe
+  '''
+  pass
+
+def LVSeqn(isat, iopt, itripl, T, P, Dens, epseqn):
+  '''
+  '''
+  pass
+
+def cpswap():
+  '''
+  '''
+  pass
+
+def LVSsat(iopt, isat, T, P, D):
+  '''
+  '''
+  pass
+
+def denLVS(isat, T, P):
+  '''
+  '''
+  pass
+
+def TsLVS(isat, P):
+  '''
+  '''
+  pass
+
+def Pfind(isat, T, D):
+  '''
+  '''
+  pass
+
+def aux(r1, th1, d2PdT2, d2PdMT, d2PdM2, aa, xk, sd, Cvcoex):
+  '''
+  '''
+  pass
+
+def conver(rho, Tee, amu, th1, r1, rho1s, s1, rhodi, error1):
+  '''
+  '''
+  pass
+
+def rtheta(r, theta, rho, Tee):
+  '''
+  '''
+  pass
+
+def ss(r, th, s, sd):
+  '''
+  '''
+  pass
+
+def thmLVS(isat, T, r1, th1):
+  '''
+  '''
+  pass
+
+def delLVS(D, T, P, alpha):
+  '''
+  '''
+  pass
+
+def backup():
+  '''
+  '''
+  pass
+
+def restor():
+  '''
+  '''
+  pass
+
+def load(phase, ptemp, props):
+  '''
+  '''
+  pass
+
+def tpset():
+  '''
+  '''
+  pass
+
+def triple(T, wpzero):
+  '''
+  '''
+  pass
+
+def power(base, exp):
+  '''
+  '''
+  pass
+
+def TdegK(it, t):
+  '''
+  '''
+  pass
+
+def TdegUS(it, t):
+  '''
+  '''
+  pass
+
+def dimHGK(isat, itripl, t, p, d, espeqn):
+  '''
+  '''
+  pass
+
+def dimLVS(isat, itripl, theta, T, Pbars, dl, dv, tprops, epseqn):
+  '''
+  '''
+  pass
+
+################################################################
+
+def viscos(Tk, Pbars, Dkgm3, betaPa):
+  '''
+  '''
+  pass
+
+def thcond(Tk, Pbars, Dkgm3, alph, betaPa):
+  '''
+  '''
+  pass
+
+def surten(Tsatur):
+  '''
+  '''
+  pass
+
+def Born92(Tk, Pbars, Dgcm3, betab, alphaK, daldT, eps, Z, Q, Y, X, epseqn):
+  '''
+  '''
+  pass
+
+def JN91(T, D, beta, alpha, daldT, eps, dedP, dedT, d2edT2):
+  '''
+  '''
+  pass
+
+def epsBrn(eps, dedP, dedT, d2edT2, Z, Q, Y, X):
+  '''
+  '''
   pass
