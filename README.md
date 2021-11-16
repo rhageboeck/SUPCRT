@@ -4,6 +4,8 @@ This repository will support the much needed update of the Super Critical analys
 
 The target of this revision will be to compile a comprehensive python module which will be extendable to fit specific research, but also allow researchers to pull data directly from the SUPCRT model into other software packages for anlysis or ML purposes.
 
+The current Fortran code is approximately ~9650 lines of code, and more than a 100 subroutines and functions.
+
 # Approach
-1. This repository will approach this revision in 2 steps. The first step will be to convert all of the SUPCRT fortran code to a Python equivalency. Hopefully this will reveal obvious data formatting issues and will give a chance to more fully understand dependencies and routines which can be simplified with more advanced Python syntax.
-2. The second step will be to redesign the input and output system to include default arguments for current input fields as well as design a data output system that is consistent with the legacy version, offers a python supported data structure output, and new CSV or Excel formats. In this step, OOP will be a priority to better develop the SUPCRT code and add a useful and well documented API for future research.
+Step 1:
+- Rewrite the function and subroutine headers in Python, adding documentation stubs as possible, to get a high level overview of the flow of the code and an idea of the complexity of the SUPCRT code.
