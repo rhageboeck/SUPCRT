@@ -1,6 +1,6 @@
 # SUPCRT
  
-This repository will support the much needed update of the Super Critical analysis code developed 5 decades affectionately known to geologists around the world as SUPCRT (pronounced: supercrit). This code revision will focus on the most recent version - the Indiana University version which adjusted the gas and aqueous species database file and altered the mineral analysis to include non-phase transition, landau theory, and bragg williams.
+This repository will support the much needed update of the Super Critical analysis code, developed 44 years ago, known to geologists around the world as SUPCRT (pronounced: supercrit). This code revision will focus on the most recent version - the Indiana University version which adjusted the gas and aqueous species database file and included new minerals.
 
 The target of this revision will be to compile a comprehensive python module which will be extendable to fit specific research, but also allow researchers to pull data directly from the SUPCRT model into other software packages for anlysis or ML purposes.
 
