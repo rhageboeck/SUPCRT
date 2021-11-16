@@ -181,5 +181,61 @@ def aqsps(naqs, P, T, Dw, betaw, alphaw, daldTw, Z, Q, Y, X, qeqn):
 
 def omeg92(g, dgdP, dgdT, d2gdT2, wref, Z, w, dwdP, dwdT, d2wdT2, aname):
   '''
+  Computes the conventional Born coefficient (w) of the current aqueous species,
+  dwdP, dwdT, and dw2dT2 as a function of g, dgdP, dgdT, d2gdT2, wref, and Z
+  using equations given by Johnson et al. (1991).
+
+    Parameters:
+
+    Returns:
+  '''
+  pass
+
+def reactn(i, P, T, Vw, Sw, Cpw, Hw, Gw):
+  '''
+  Computes the standard molal thermodynamic properties of the i[th] reation.
+
+    Parameters:
+
+    Returns:
+  '''
+  pass
+
+def gfun92(TdegC, Pbars, Dgcm3, betab, alphaK, daldT, g, dgdP, dgdT, d2gdT2, geqn):
+  # geqn = 1,2 disabled in current SUPCRTBL
+  '''
+  Computes the g function (Tanger and Helgeson, 1988; Shock et al., 1991)
+  and its partial derivatives (dgdP, dgdT, d2gdT2) at TdegC, Pbars using the
+  computational algorithm specified by qeqn.
+
+  geqn = 1 ..... use Tanger-Helgeson (1988) equations
+  geqn = 2 ..... use Shock et al. (1991) equations
+                 without the f(P,T) difference equation
+  geqn = 3 ..... use Shock et al. (1991) equations
+                 with the f(P,T) difference function
+
+    Parameters:
+
+    Returns:
+  '''
+  pass
+
+def gShok2(T, P, D, beta, alpha, daldT, g, dgdP, dgdT, d2gdT2):
+  '''
+  Computes g, dgdP, dgdT, and d2gdT2 using equations given by Shock et al. (1991)
+
+    Parameters:
+
+    Returns:
+  '''
+  pass
+
+def solve(x0, y0, res, iters, debug, imin, T, P):
+  '''
+  Estimate the zero of f(x) using Newton's method.
+  
+    Parameters:
+
+    Returns:
   '''
   pass
